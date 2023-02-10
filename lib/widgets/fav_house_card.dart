@@ -31,7 +31,7 @@ class _FavHouseCard extends State<FavHouseCard>{
         width: ScreenUtil().setWidth(330.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12.0),
-          color: Color(0xFFF4F5F6),
+          color: Colors.white,
           border: Border.all(color: Color.fromARGB(255, 220, 227, 235))
         ),
         child: Column(
